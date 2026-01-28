@@ -10,6 +10,9 @@ body {
 
 .container {
     text-align: center;
+    display: flex;
+    flex-direction: column; /* stack everything vertically */
+    align-items: center;    /* center horizontally */
 }
 
 .header_text {
@@ -17,15 +20,17 @@ body {
     color: #d32f2f;
 }
 
-.gif_container img {
-    width: 100%; 
-    max-width: 500px; 
-    height: auto; 
+.gif_container {
+    width: 100%;
+    max-width: 500px;
 }
 
 .sub_text {
-    font-size: 1.5em;       /* smaller than main header */
+    font-size: 1.5em;
     color: #ad1457;
-    margin-top: 20px;       /* more space below the GIF */
-    text-align: center;     /* center under GIF */
+    text-align: center;
+}
+
+.message_container {
+    margin-top: 20px;       /* space between GIF and text */
 }
