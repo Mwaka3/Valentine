@@ -34,3 +34,16 @@ body {
 .message_container {
     margin-top: 20px;       /* space between GIF and text */
 }
+
+/* Fade-in animation */
+.fade-in {
+    opacity: 0;                   /* start invisible */
+    animation: fadeInText 2s ease forwards;  /* animate over 2 seconds */
+    animation-delay: 1s;           /* wait 1 second before starting */
+}
+
+@keyframes fadeInText {
+    to {
+        opacity: 1;               /* end fully visible */
+    }
+}
