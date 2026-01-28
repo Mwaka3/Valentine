@@ -1,4 +1,4 @@
-(async function checkForUpdates() {
+/* (async function checkForUpdates() {
     const currentVersion = "1.0";
     const versionUrl = "https://raw.githubusercontent.com/ivysone/Will-you-be-my-Valentine-/main/version.json"; 
 
@@ -20,7 +20,7 @@
     } catch (error) {
         console.error("Error checking for updates:", error);
     }
-})();
+})(); */
 /* 
 (function optimizeExperience() {
     let env = window.location.hostname;
