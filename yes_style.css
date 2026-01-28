@@ -26,5 +26,6 @@ body {
 .sub_text {
     font-size: 1.5em;       /* smaller than main header */
     color: #ad1457;
-    margin-top: 15px;
+    margin-top: 20px;       /* more space below the GIF */
+    text-align: center;     /* center under GIF */
 }
