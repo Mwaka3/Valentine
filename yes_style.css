@@ -25,25 +25,39 @@ body {
     max-width: 500px;
 }
 
-.sub_text {
-    font-size: 1.5em;
-    color: #ad1457;
-    text-align: center;
+.message {
+    margin-top: 30px;
+    max-width: 600px;
 }
 
-.message_container {
-    margin-top: 20px;       /* space between GIF and text */
+.message-line {
+    font-size: 1.3em;
+    margin: 15px 0;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    line-height: 1.6;
 }
 
-/* Fade-in animation */
-.fade-in {
-    opacity: 0;                   /* start invisible */
-    animation: fadeInText 2s ease forwards;  /* animate over 2 seconds */
-    animation-delay: 1s;           /* wait 1 second before starting */
+.final-line {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #c62828;
 }
 
-@keyframes fadeInText {
+@keyframes fadeIn {
     to {
-        opacity: 1;               /* end fully visible */
+        opacity: 1;
     }
 }
+
+.fade-out {
+    animation: fadeOut 1.5s forwards;
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
