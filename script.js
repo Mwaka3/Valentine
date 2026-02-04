@@ -57,7 +57,7 @@ const messages = [
     "Are you sure?",
     "Really sure??",
     "Uko sure? Nisha order Flowers",
-    "JBelle please...😂",
+    "Darlene please...😂",
     "Just think about it!",
     "If you say no tena shauri zakoo...",
     "Ayaaa we endeleaa...",
